@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "993225833429",
+    "project_id": "appaudax",
+    "storage_bucket": "appaudax.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993225833429:android:2404bdff694435ef095b5c",
+        "android_client_info": {
+          "package_name": "com.example.appaudax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993225833429-hhepipv42hcmnhhrllcohqslce46r6r0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmxcJMPzyLNHpNl59NbB-w90h0l-NQuB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993225833429-hhepipv42hcmnhhrllcohqslce46r6r0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

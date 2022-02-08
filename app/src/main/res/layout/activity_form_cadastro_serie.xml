@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_4"
+    tools:context=".FormCadastroSerie">
+
+    <TextView
+        android:id="@+id/serie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/serie_cadastro"
+        android:textSize="50sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+    <TextView
+        android:id="@+id/adc"
+        android:layout_width="match_parent"
+        android:text="@string/adicione"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintTop_toBottomOf="@id/serie"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"
+        >
+    </TextView>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_clique"
+        style="@style/But"
+        android:text="@string/clique"
+        android:drawableLeft="@drawable/ic_camera"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@id/adc"
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="225dp"
+        android:text="@string/titulo"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bt_clique">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/edit_serie"
+        style="@style/Text_box"
+        android:hint="Insira o nome da serie"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@id/titulo"
+        app:layout_constraintEnd_toEndOf="@id/titulo"
+        app:layout_constraintTop_toTopOf="@id/titulo">
+
+    </EditText>
+    <TextView
+        android:id="@+id/sinopse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="150dp"
+        android:text="@string/sinopse"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/titulo"
+        app:layout_constraintEnd_toEndOf="@id/edit_serie"
+        app:layout_constraintTop_toBottomOf="@id/edit_serie">
+
+    </TextView>
+    <EditText
+        style="@style/ContainerComponents2"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@id/sinopse"
+        app:layout_constraintTop_toBottomOf="@id/sinopse">
+
+    </EditText>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

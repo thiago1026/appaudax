@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AppAudax</string>
+    <string name="entrar">Entrar</string>
+    <string name="text_cadastro">Não possui cadastro? Inscreva-se aqui</string>
+    <string name="cadastro_série">Cadastrar série nova</string>
+    <string name="text_série">Suas séries cadastradas:</string>
+    <string name="serie_cadastro">Cadastro de série</string>
+    <string name="adicione">Adicione todas as informações necessarias para cadastrar essa série.</string>
+    <string name="clique">Clique para adicionar imagem</string>
+    <string name="titulo">Titulo da série:</string>
+    <string name="sinopse">Sinopse:</string>
+    <string name="bt_can">Cancelar</string>
+    <string name="bt_cad">Cadastrar</string>
+
+</resources>
